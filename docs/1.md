@@ -1,5 +1,5 @@
 ---
-id: doc1
+id: 1
 title: 如何为 D435 深度相机安装驱动
 sidebar_label: Ubuntu18.04realsense D435驱动安装 realsense D435深度相机
 ---
