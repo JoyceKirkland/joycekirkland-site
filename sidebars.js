@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    'RealSense 深度相机': ['如何为 D435 深度相机安装驱动', 'doc2', 'doc3'],
+    'RealSense 深度相机': ['doc1', 'doc2', 'doc3'],
     'Ubuntu / Windows': ['mdx'],
   },
 };
