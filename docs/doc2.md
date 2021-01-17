@@ -1,6 +1,6 @@
 ---
 id: doc2
-title: Windows10下 JAVA 环境配置
+title: Windows10下 Java 环境配置
 ---
 ## 下载 JDK8
 
