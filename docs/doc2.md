@@ -227,15 +227,32 @@ public static void main(String[] agrs)
 ---
 ## 奇奇怪怪的踩坑实录
 
-都是 2020 以上版本的问题，2019-12 版本无事发生。
+#### 都是 2020 以上版本的问题，2019-12 版本无事发生。
 
-eclipse 下载好之后双击 exe 发现弹出来一个报错：
+1、eclipse 下载好之后双击 exe 发现弹出来一个报错：
 
 『Version 1.8.0_201 of the JVM is not suitable for this product. Version: 11 or greater is required.』
 
 解决办法：
 #### https://blog.csdn.net/jcmj123456/article/details/109020920
 
+
+2、如果你发现你的 eclipse 在新建文件夹的时候是没有 Java project 的：
+
+#### https://blog.csdn.net/sinat_41752599/article/details/85275606?biz_id=102&utm_term=eclipse%E6%97%A0%E6%B3%95%E6%96%B0%E5%BB%BAJava%E9%A1%B9%E7%9B%AE&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-0-85275606&spm=1018.2118.3001.4449
+
+如果上面的解决不了，试试这个：
+#### https://www.cnblogs.com/gjceshi/p/13822520.html
+
+#### 点开上面链接之前先看这：
+#### 上面写的不是很全，里面有一步打开 install 在这里：
+
+![](https://image-up-1304421499.cos.ap-guangzhou.myqcloud.com/img/20210117172150.png)
+
+这张图来自于这个链接，如果以后要是想安装插件也可参考这个链接：
+#### https://www.cnblogs.com/tianxue/p/7899872.html
+
+要是还不行的话建议换回 2019-12 版本，2021-3 的版本我没尝试过，但可以保证 2019-12 的版本基本没有坑。
 
 
 
