@@ -16,7 +16,7 @@ title: Windows10下 JAVA 环境配置
 
 ![](https://image-up-1304421499.cos.ap-guangzhou.myqcloud.com/img/20210117144045.png)
 
-## 记住你的下载路径！
+# 记住你的下载路径！
 ---
 ## 安装 JDK8
 
@@ -50,7 +50,8 @@ title: Windows10下 JAVA 环境配置
 ③ Classpath（添加 jdk 的 lib 文件夹所在路径）
 
 ## 注意： 
-① 你日后在配置其他库或者什么其他环境变量的时候 ## 不要也起名为 path / Path / PATH 
+① 你日后在配置其他库或者什么其他环境变量的时候 
+# 不要也起名为 path / Path / PATH 
 等等（ Windows 下不管大小写只要是这个四个字母 ），如果你不记得 Java 的 path 变量长什么样，原来的 Java 的 Path 变量很有可能会被你后来配置的其他环境变量顶掉，然后导致你的 Java 不能用！而且这个 Path 原本就是有很多其他的环境变量的（比如我的 Python 环境变量也在里面）！
 
 ② 如果你是先配置 Java （配置好了能用了）再配置其他环境的，如无例外 Java 的 Path 变量名应该是不能改了（我曾经尝试过修改成 『JAVA_PATH 』，不能用）这个时候只要将你后来配置的库或者环境变量前加一个什么标志，跟 Java 的区分开，添加完之后看看 Java 的环境变量是否跟你后来添加的其他环境变量是能共存的就行了。
@@ -85,11 +86,11 @@ title: Windows10下 JAVA 环境配置
 
 ![](https://image-up-1304421499.cos.ap-guangzhou.myqcloud.com/img/20210117152502.png)
 
-③ 按照上面 『JAVA_HOME』 的方式新建 CLASSPATH : 
+③ 按照上面 JAVA_HOME 的方式新建 CLASSPATH : 
 ```
 .;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar
 ```
-## 注意这一条百分号前面是有个点和分号的喔。
+# 注意这一条百分号前面是有个点和分号的喔。
 ---
 ## 验证安装
 
@@ -135,7 +136,7 @@ java
 
 PS：如果出现：
 
-『‘javac’不是内部或外部命令，也不是可运行的程序。』
+『 ‘javac’ 不是内部或外部命令，也不是可运行的程序。』
 
 就说明在环境变量设置中可能有路径出错了，那就从头到尾检查一遍。
 
@@ -144,12 +145,13 @@ PS：如果出现：
 ---
 ## eclipse的安装
 
-## 建议不要安装 2020 以上的最新版本！会有很多坑！很多坑！真的很多坑！我一开始就是装了2020-9版本的踩了很多坑，踩坑实录我也一并放在下面了，最后是重装下回了 2019-12 解决的！ 2019-12 的版本一点事都没有！所以这里让你们装 2019-12 的版本，如果你实在很想用最新的也行……
+# 建议不要安装 2020 以上的最新版本！会有很多坑！很多坑！真的很多坑！我一开始就是装了2020-9版本的踩了很多坑，踩坑实录我也一并放在下面了，最后是重装下回了 2019-12 解决的！ 2019-12 的版本一点事都没有！所以这里让你们装 2019-12 的版本，如果你实在很想用最新的也行……
+
 2019-12 版本：
-## https://www.eclipse.org/downloads/packages/release/2019-12/r
+# https://www.eclipse.org/downloads/packages/release/2019-12/r
 
 其他版本选择：
-## https://www.eclipse.org/downloads/packages/release
+# https://www.eclipse.org/downloads/packages/release
 
 点开之后长这样，看到上面显示的是 2019-12 ，选择下面蓝色大圈里旁边的那个 windows x86_64 ：
 
@@ -182,7 +184,7 @@ Java 代码基本上都是通过『类』来实现，因此我们要运行一个
 点左边你刚建好的 project ，下面有个 src 文件夹，右键 src->new->class。
 
 在弹出的窗口中，下半部分有一个选项叫『public static void main(String[] args)』，如果勾选则表示编辑器会给你建好 main 主函数，这一步可不选，如果不选一会可以自己手打上去。
-## 反正程序运行必须要有 main 主函数。
+# 反正程序运行必须要有 main 主函数。
 测试代码：
 
 ```
@@ -231,7 +233,7 @@ eclipse 下载好之后双击 exe 发现弹出来一个报错：
 『Version 1.8.0_201 of the JVM is not suitable for this product. Version: 11 or greater is required.』
 
 解决办法：
-## https://blog.csdn.net/jcmj123456/article/details/109020920
+# https://blog.csdn.net/jcmj123456/article/details/109020920
 
 
 
